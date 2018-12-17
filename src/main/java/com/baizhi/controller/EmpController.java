@@ -16,5 +16,6 @@ public class EmpController {
     @RequestMapping("/emp")
     public Emp queryOne() {
         return empMapper.selectByPrimaryKey(2);
+        System.out.println("github");
     }
 }
